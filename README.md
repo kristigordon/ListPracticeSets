@@ -27,3 +27,14 @@ returns:
 list(range(3, 10))
 [3, 4, 5, 6, 7, 8, 9]
 ```
+
+```
+a[2 : 5] gives [4.63, True, "World"]
+a[ : ] gives ["Hello", 1, 4.63, True, "World", 2.0, "False"]
+a[-1: -3 : -1] gives ["False", 2.0]
+```
+
+```
+a[1] = 2
+print(a) gives ['Hello', 2, 4.63, True, "World", 2.0, "False"]
+```
